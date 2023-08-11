@@ -11,6 +11,7 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 <style>
   body {
     position: relative;
@@ -37,6 +38,10 @@
   h2 {
     color: #cf0a0a;
     font-size: 40px;
+  }
+
+  strong{
+    color:#dc5f00;
   }
 
   p,
@@ -71,6 +76,12 @@
 <body class="p-2 text-white" style="background: linear-gradient(45deg, #e73c7e, #613ce7, #062e85, #045c48);
   background-size: 400% 400%;
   animation: gradient 3s ease infinite;"">
+  <nav id="intro" class="container fas fa-car-side fa-3x" data-mdb-toggle="animation" data-mdb-animation="slide-in-left"
+  data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-aos="fade-right">
+  <h1 style="padding-bottom: 5%;"><strong style="color: red">Willkommen</strong>  <strong style="color: blueviolet;">·  Welcome</strong>  <strong style="color: orangered;">·  Selamat Datang</strong>  <strong style="color: blueviolet;">·  Bienvenue</strong></h1><br>
+  <p id="typing-text">
+  </p>
+</nav>
   <nav id=" header" class="container" data-aos="fade-down">
   <img class="rounded-circle" src="avatar.jpg" width="250" height="250" style="object-fit: cover;" />
   </br>
