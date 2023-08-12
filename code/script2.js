@@ -12,4 +12,4 @@ const introductionText = document.getElementById("introduction-text");
     }
 
     // Start typing animation
-    typeText();
+    window.onload = typeText;
